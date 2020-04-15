@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+body {
+    background-color: rgb(250, 250, 250);
+    font-display: block;
+    font-family: 'Open Sans'; 
+    margin:0px;
+    font-size:1vw;
+}
+
+
+h1 {
+    font-weight: bold;
+
+}
+
+a{
+    padding:0.3em;
+    text-decoration:none;
+    color: rgb(20, 20, 20);
+    font-size:1.5vw;
+}
+
+.button {
+  background-color: rgb(81, 91, 212);
+  border: none;
+  color: rgb(250, 250, 250);
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.center {
+    size:inherit;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center
+}
+
+.header {
+    padding-top: 2em;
+    size:inherit;
+    margin: auto;
+    width: 100%;
+    text-align: center
+}
+
+.menu {
+    margin-top: 1.5em;
+    margin-bottom: 5em;
+    text-align: center
+}
+
+.menu-item {
+    margin-left: 1em;
+    margin-right: 1em;
+    display: inline-block;
+    
+}
+
+.icons{
+    padding-top:1em;
+    margin: auto;
+    display:inline-block;
+
+}
+
+.sidebyside{
+    float:left;
+    padding-left:1em;
+    padding-right:1em;
+
+}
+
+.photogrid{
+    text-align: center
+}
+
+.contactform{
+    text-align: center
+}
+
+.content {
+    margin: 0 auto;
+    width:61vw;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+.about{
+    text-align: left;
+}
+
+.thumb { 
+    width:20vw;
+    height:20vw;
+    object-fit: cover;
+    padding: 0.1vw;
+}
+
+.imagewide {
+    width:100%;
+    height:35vw;
+    object-fit: cover;
+    padding: -0.5vw;
+    position: absolute;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    body {
+    background-color: rgb(250, 250, 250);
+    font-display: block;
+    font-family: 'Open Sans'; 
+    margin:0px;
+    font-size:3vw;
+    }
+
+
+    h1 {
+        font-weight: bold;
+
+    }
+
+    a {
+        padding:0.3em;
+        text-decoration:none;
+        color: rgb(20, 20, 20);
+        font-size:4vw;
+    }
+
+.thumb {
+        width:65vw;
+        height:65vw;
+        object-fit: cover;
+        padding: 0.5vw;
+    }
+
+  .header {
+    padding-top: 2em;
+    size:inherit;
+    margin: auto;
+    width: 100%;
+    text-align: center
+}
+
+    .logo {
+        width:50vw;
+    }
+
+    .menu {
+        margin-top: 1.5em;
+        margin-bottom: 5em;
+        text-align: center
+
+    }
+
+    .menu-item {
+        margin-left: 1em;
+        margin-right: 1em;
+        display: inline-block;
+        
+    }
+
+}
